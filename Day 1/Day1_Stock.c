@@ -44,6 +44,7 @@ int maxProfit(int prices[], int n)
             total_max = max;
         }
     }
+
     if (total_max > 0)
         return total_max;
     else
@@ -53,6 +54,8 @@ int maxProfit(int prices[], int n)
 void main()
 {
     int prices[100], n, i, total_max;
+
+    system("cls");
 
     printf("\nEnter the no. of array prices[] elements: ");
     scanf("%d", &n);
